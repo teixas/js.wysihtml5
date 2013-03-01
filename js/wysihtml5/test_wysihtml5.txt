@@ -1,0 +1,15 @@
+How to use?
+===========
+
+
+You can import ``simple_wysihtml5`` from ``js.wysihtml5`` and ``need``
+it where you want these resources to be included on a page::
+
+  >>> from js.wysihtml5 import simple_wysihtml5
+  >>> simple_wysihtml5.need()
+
+Alternatively you can import ``advanced_wysihtml5`` if you want to use
+more advanced parser rules::
+
+  >>> from js.wysihtml5 import advanced_wysihtml5
+  >>> advanced_wysihtml5.need()
